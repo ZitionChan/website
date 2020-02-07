@@ -1,5 +1,5 @@
 #page title
-page_title                                : 拼长图I长截图--方便好用的微信小程序                                          # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+page_title                                : 拼长图I长截图-方便好用的长图拼接微信小程序                                          # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
 ios_app_id                                : 0                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
@@ -12,11 +12,14 @@ presskit_download_link                    : #https://emilbaehr.com              
 app_icon                                  : assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_qrcode                                : assets/qrcode.png
 app_name                                  : 拼长图I长截图                                        # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : 方便好用的「拼长图」微信小程序，支持生成滚动截图、横向/竖向拼接、台词拼接
+app_price                                 : 微信扫码，即刻体验                                       # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_description                           : 方便好用的「拼长图」微信小程序。支持生成滚动截图、横向/竖向拼接照片、电影台词拼接
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
+# Use for search
+head_keywords                             : 拼长图，长截图，滚动截图，图片拼接，拼台词，台词拼接，微信小程序
+head_description                          : 长图拼接微信小程序，可以将多张照片横向或纵向拼接成一张长图，支持去重拼接生成滚动截图，拼接电影台词等。
 
 
 # Information About Yourself
@@ -35,12 +38,12 @@ youtube_username                          :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : 长截图
-    description                           : 轻松将多张截图拼接成一张滚动截图
+  - title                                 : 长截图(iOS)
+    description                           : 轻松将多张截图去重拼接，生成一张滚动截图
     fontawesome_icon_name                 : star
     
   - title                                 : 普通拼接
-    description                           : 横向或竖向拼接多张照片，轻松调整边框，保存和分享
+    description                           : 横向/竖向拼接多张照片，随意调整边框，保存和分享
     fontawesome_icon_name                 : star
 
   - title                                 : 拼台词
@@ -57,16 +60,16 @@ features                                  :
 
 # Theme Settings
 topbar_color                              : "#ffffff"
-topbar_transparency                       : 0.1
+topbar_transparency                       : 0
 topbar_title_color                        : "#1c2438"
 
-cover_image                               : #assets/headerimage.png                    # Replace with alternative image path or image URL.
+cover_image                               : assets/headerimage.jpg                    # Replace with alternative image path or image URL.
 cover_overlay_color                       : "#ffffff" #"#363b3d"
-cover_overlay_transparency                : 0.8
+cover_overlay_transparency                : 0.85
 
 device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
 
-body_background_color                     : "#f8f8f9"
+body_background_color                     : "#fbfbfb"
 
 link_color                                : "#1d63ea"
 
