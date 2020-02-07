@@ -10,6 +10,7 @@ presskit_download_link                    : #https://emilbaehr.com              
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
 app_icon                                  : assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
+app_qrcode                                : assets/qrcode.png
 app_name                                  : 拼长图I长截图                                        # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_description                           : 方便好用的「拼长图」微信小程序，支持生成滚动截图、横向/竖向拼接、台词拼接
