@@ -1,5 +1,11 @@
 <footer>
 	<p class="footerText">Made by {% if site.your_link %}<a href="{{ site.your_link }}">{% endif %}{{ site.your_name }}{% if site.your_link %}</a>{% endif %}{% if site.your_city %} in {{ site.your_city }}{% endif %}</p>
+	{% if site.subscription_code%}
+	<div class="subscriptionCode">
+		<img src="{{site.subscription_code}}" style="width:100%;"/>
+	</div>
+	<p style="color:#777;font-size:16px; width:100%; text-align: center;">扫码关注作者公众号</p>
+	{% endif %}
 	<div class="footerIcons">
 
 		{% if site.facebook_username %}
