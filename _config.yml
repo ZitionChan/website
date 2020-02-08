@@ -14,8 +14,7 @@ app_qrcode                                : assets/qrcode.png
 app_name                                  : 拼长图I长截图                                        # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 : 微信扫码，即刻体验                                       # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_description                           : 方便好用的「拼长图」微信小程序。支持生成滚动截图、横向/竖向拼接照片、电影台词拼接
-
-enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
+                                    # Set to true to show a smart app banner at top of page on mobile devices.
 
 # Use for search
 head_keywords                             : 拼长图，长截图，滚动截图，图片拼接，拼台词，台词拼接，微信小程序
@@ -41,14 +40,17 @@ features                                  :
   - title                                 : 长截图(iOS)
     description                           : 轻松将多张截图去重拼接，生成一张滚动截图
     fontawesome_icon_name                 : star
+    img                                   : assets/longPic.png
     
   - title                                 : 普通拼接
     description                           : 横向/竖向拼接多张照片，随意调整边框，保存和分享
     fontawesome_icon_name                 : star
+    img                                   : assets/columnPic.png
 
   - title                                 : 拼台词
     description                           : 快速拼接多张电影截图，任意展开其中的截图
     fontawesome_icon_name                 : star
+    img                                   : assets/linesPic.png
 
   
 

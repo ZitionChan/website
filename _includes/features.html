@@ -4,19 +4,22 @@
 
     {% if feature.title %}
     <div class="feature">
-        <div>
-            <span class="fa-stack fa-1x">
-                <i class="iconBack fas fa-circle fa-stack-2x"></i>
-                <i class="iconTop fas fa-{{ feature.fontawesome_icon_name }} fa-stack-1x"></i>
-            </span>
-        </div>
+
         <div class="featureText">
+            
             <h3>
+                <span class="fa-stack fa-1x">
+                    <i class="iconBack fas fa-circle fa-stack-2x"></i>
+                    <i class="iconTop fas fa-{{ feature.fontawesome_icon_name }} fa-stack-1x"></i>
+                </span>
                 {{ feature.title }}
             </h3>
             <p>
                 {{ feature.description }}
             </p>
+        </div>
+        <div class="featureImg" >
+            <img src="{{feature.img}}" style="width:100%;" />
         </div>
     </div>
     {% endif %}
